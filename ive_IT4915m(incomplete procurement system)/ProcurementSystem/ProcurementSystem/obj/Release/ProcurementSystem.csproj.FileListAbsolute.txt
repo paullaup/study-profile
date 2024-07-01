@@ -1,0 +1,14 @@
+E:\desktop real\4915m\program\ProcurementSystem\ProcurementSystem\bin\Release\YummyRestaurantLimited.mdb
+E:\desktop real\4915m\program\ProcurementSystem\ProcurementSystem\bin\Release\ProcurementSystem.exe.config
+E:\desktop real\4915m\program\ProcurementSystem\ProcurementSystem\bin\Release\ProcurementSystem.exe
+E:\desktop real\4915m\program\ProcurementSystem\ProcurementSystem\bin\Release\ProcurementSystem.pdb
+E:\desktop real\4915m\program\ProcurementSystem\ProcurementSystem\obj\Release\ProcurementSystem.csproj.AssemblyReference.cache
+E:\desktop real\4915m\program\ProcurementSystem\ProcurementSystem\obj\Release\ProcurementSystem.csproj.SuggestedBindingRedirects.cache
+E:\desktop real\4915m\program\ProcurementSystem\ProcurementSystem\obj\Release\ProcurementSystem.LoginUI.resources
+E:\desktop real\4915m\program\ProcurementSystem\ProcurementSystem\obj\Release\ProcurementSystem.Properties.Resources.resources
+E:\desktop real\4915m\program\ProcurementSystem\ProcurementSystem\obj\Release\ProcurementSystem.RegisterUI.resources
+E:\desktop real\4915m\program\ProcurementSystem\ProcurementSystem\obj\Release\ProcurementSystem.RestaurantManager.resources
+E:\desktop real\4915m\program\ProcurementSystem\ProcurementSystem\obj\Release\ProcurementSystem.csproj.GenerateResource.cache
+E:\desktop real\4915m\program\ProcurementSystem\ProcurementSystem\obj\Release\ProcurementSystem.csproj.CoreCompileInputs.cache
+E:\desktop real\4915m\program\ProcurementSystem\ProcurementSystem\obj\Release\ProcurementSystem.exe
+E:\desktop real\4915m\program\ProcurementSystem\ProcurementSystem\obj\Release\ProcurementSystem.pdb

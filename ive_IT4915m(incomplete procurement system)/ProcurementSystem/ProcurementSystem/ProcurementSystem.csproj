@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A7DBC4E5-FE57-4F43-8EC3-12D38CF15894}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ProcurementSystem</RootNamespace>
+    <AssemblyName>ProcurementSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account.cs" />
+    <Compile Include="AccountAdapter.cs" />
+    <Compile Include="BlanketRelease.cs" />
+    <Compile Include="BlanketReleaseAdapter.cs" />
+    <Compile Include="BPAAdapter.cs" />
+    <Compile Include="CategoryManagerControl.cs" />
+    <Compile Include="CategoryManagementUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CategoryManagementUI.Designer.cs">
+      <DependentUpon>CategoryManagementUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CategoryManagerUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CategoryManagerUI.Designer.cs">
+      <DependentUpon>CategoryManagerUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CPAAdapter.cs" />
+    <Compile Include="DeliveryNoteLineAdapter.cs" />
+    <Compile Include="DeliveryNote.cs" />
+    <Compile Include="DeliveryNoteAdapter.cs" />
+    <Compile Include="DeliveryNoteLine.cs" />
+    <Compile Include="DepartmentAdapter.cs" />
+    <Compile Include="DespatchInstruction.cs" />
+    <Compile Include="DespatchInstructionAdapter.cs" />
+    <Compile Include="DespatchInstructionLine.cs" />
+    <Compile Include="DespatchInstructionLineAdapter.cs" />
+    <Compile Include="EntityAdapter.cs" />
+    <Compile Include="FindPasswordControl.cs" />
+    <Compile Include="FindPasswordUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FindPasswordUI.Designer.cs">
+      <DependentUpon>FindPasswordUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ItemAdapter.cs" />
+    <Compile Include="ItemManagementControl.cs" />
+    <Compile Include="ItemManagementUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ItemManagementUI.Designer.cs">
+      <DependentUpon>ItemManagementUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Logger.cs" />
+    <Compile Include="LoginControl.cs" />
+    <Compile Include="LoginUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginUI.Designer.cs">
+      <DependentUpon>LoginUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainUIControl.cs" />
+    <Compile Include="MakeBlanketReleaseControl.cs" />
+    <Compile Include="MakeBlanketReleaseUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MakeBlanketReleaseUI.Designer.cs">
+      <DependentUpon>MakeBlanketReleaseUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MakeDespatchInstructionUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MakeDespatchInstructionUI.Designer.cs">
+      <DependentUpon>MakeDespatchInstructionUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MakeDestpatchInstructionControl.cs" />
+    <Compile Include="MakeRequesetControl.cs" />
+    <Compile Include="MakeRequestUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MakeRequestUI.Designer.cs">
+      <DependentUpon>MakeRequestUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MakeScheduleReleaseControl.cs" />
+    <Compile Include="MakeScheduleReleaseUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MakeScheduleReleaseUI.Designer.cs">
+      <DependentUpon>MakeScheduleReleaseUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MakeSPOsControl.cs" />
+    <Compile Include="MakeSPOsUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MakeSPOsUI.Designer.cs">
+      <DependentUpon>MakeSPOsUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MapRequestControl.cs" />
+    <Compile Include="MapRequestUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MapRequestUI.Designer.cs">
+      <DependentUpon>MapRequestUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PPOAdapter.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PurchaseOrder.cs" />
+    <Compile Include="PurchaseManagerControl.cs" />
+    <Compile Include="PurchaseManagerUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PurchaseManagerUI.Designer.cs">
+      <DependentUpon>PurchaseManagerUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReceiveDespatchInstructionControl.cs" />
+    <Compile Include="ReceiveDespatchInstructionUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReceiveDespatchInstructionUI.Designer.cs">
+      <DependentUpon>ReceiveDespatchInstructionUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterControl.cs" />
+    <Compile Include="RegisterUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegisterUI.Designer.cs">
+      <DependentUpon>RegisterUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Request.cs" />
+    <Compile Include="RequestAdapter.cs" />
+    <Compile Include="RequestItem.cs" />
+    <Compile Include="RequestItemAdapter.cs" />
+    <Compile Include="RequestLine.cs" />
+    <Compile Include="RequestLineAdapter.cs" />
+    <Compile Include="RestaurantManagerControl.cs" />
+    <Compile Include="RestaurantManagerUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RestaurantManagerUI.Designer.cs">
+      <DependentUpon>RestaurantManagerUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ScheduleRelease.cs" />
+    <Compile Include="ScheduleReleaseAdapter.cs" />
+    <Compile Include="SelectDepartmentAddress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectDepartmentAddress.Designer.cs">
+      <DependentUpon>SelectDepartmentAddress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelecteItemUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelecteItemUI.Designer.cs">
+      <DependentUpon>SelecteItemUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateDeliveryNoteStatusControl.cs" />
+    <Compile Include="UpdateDeliveryNoteStatusUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateDeliveryNoteStatusUI.Designer.cs">
+      <DependentUpon>UpdateDeliveryNoteStatusUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewBPAControl.cs" />
+    <Compile Include="ViewBPAItemsControl.cs" />
+    <Compile Include="ViewBPAItemsUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewBPAItemsUI.Designer.cs">
+      <DependentUpon>ViewBPAItemsUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewCPAControl.cs" />
+    <Compile Include="ViewDeliveryNoteLine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewDeliveryNoteLine.Designer.cs">
+      <DependentUpon>ViewDeliveryNoteLine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewDepartmentControl.cs" />
+    <Compile Include="VIewInstructionItems.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIewInstructionItems.Designer.cs">
+      <DependentUpon>VIewInstructionItems.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewPPOControl.cs" />
+    <Compile Include="ViewPPOItemsControl.cs" />
+    <Compile Include="ViewPPOItemsUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewPPOItemsUI.Designer.cs">
+      <DependentUpon>ViewPPOItemsUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewRequestControl.cs" />
+    <Compile Include="ViewRequestItemControl.cs" />
+    <Compile Include="ViewRequestItemUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewRequestItemUI.Designer.cs">
+      <DependentUpon>ViewRequestItemUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewWarehouseInventoryControl.cs" />
+    <Compile Include="WarehouseClerkControl.cs" />
+    <Compile Include="WarehouseClerkUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WarehouseClerkUI.Designer.cs">
+      <DependentUpon>WarehouseClerkUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WarehouseInventoryAdapter.cs" />
+    <Compile Include="YummyRestaurantLimitedDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>YummyRestaurantLimitedDataSet.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CategoryManagerUI.resx">
+      <DependentUpon>CategoryManagerUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FindPasswordUI.resx">
+      <DependentUpon>FindPasswordUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ItemManagementUI.resx">
+      <DependentUpon>ItemManagementUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginUI.resx">
+      <DependentUpon>LoginUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MakeBlanketReleaseUI.resx">
+      <DependentUpon>MakeBlanketReleaseUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MakeDespatchInstructionUI.resx">
+      <DependentUpon>MakeDespatchInstructionUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MakeRequestUI.resx">
+      <DependentUpon>MakeRequestUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MakeScheduleReleaseUI.resx">
+      <DependentUpon>MakeScheduleReleaseUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MakeSPOsUI.resx">
+      <DependentUpon>MakeSPOsUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MapRequestUI.resx">
+      <DependentUpon>MapRequestUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="PurchaseManagerUI.resx">
+      <DependentUpon>PurchaseManagerUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReceiveDespatchInstructionUI.resx">
+      <DependentUpon>ReceiveDespatchInstructionUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegisterUI.resx">
+      <DependentUpon>RegisterUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RestaurantManagerUI.resx">
+      <DependentUpon>RestaurantManagerUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectDepartmentAddress.resx">
+      <DependentUpon>SelectDepartmentAddress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelecteItemUI.resx">
+      <DependentUpon>SelecteItemUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateDeliveryNoteStatusUI.resx">
+      <DependentUpon>UpdateDeliveryNoteStatusUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewBPAItemsUI.resx">
+      <DependentUpon>ViewBPAItemsUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewDeliveryNoteLine.resx">
+      <DependentUpon>ViewDeliveryNoteLine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIewInstructionItems.resx">
+      <DependentUpon>VIewInstructionItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewPPOItemsUI.resx">
+      <DependentUpon>ViewPPOItemsUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewRequestItemUI.resx">
+      <DependentUpon>ViewRequestItemUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WarehouseClerkUI.resx">
+      <DependentUpon>WarehouseClerkUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Viewability.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="YummyRestaurantLimitedDataSet.xsc">
+      <DependentUpon>YummyRestaurantLimitedDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="YummyRestaurantLimitedDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>YummyRestaurantLimitedDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="YummyRestaurantLimitedDataSet.xss">
+      <DependentUpon>YummyRestaurantLimitedDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="YummyRestaurantLimited.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

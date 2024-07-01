@@ -1,0 +1,185 @@
+E:\desktop real\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.csproj.AssemblyReference.cache
+E:\desktop real\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.csproj.SuggestedBindingRedirects.cache
+E:\desktop real\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.LoginUI.resources
+E:\desktop real\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.Properties.Resources.resources
+E:\desktop real\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.csproj.GenerateResource.cache
+E:\desktop real\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.csproj.CoreCompileInputs.cache
+E:\desktop real\4915m\program\ProcurementSystem\ProcurementSystem\bin\Debug\ProcurementSystem.exe.config
+E:\desktop real\4915m\program\ProcurementSystem\ProcurementSystem\bin\Debug\ProcurementSystem.exe
+E:\desktop real\4915m\program\ProcurementSystem\ProcurementSystem\bin\Debug\ProcurementSystem.pdb
+E:\desktop real\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.exe
+E:\desktop real\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.pdb
+E:\desktop real\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.RegisterUI.resources
+E:\desktop real\4915m\program\ProcurementSystem\ProcurementSystem\bin\Debug\YummyRestaurantLimited.mdb
+E:\desktop real\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.PurchaseManagerUI.resources
+E:\desktop real\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.RestaurantManagerUI.resources
+E:\desktop real\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.FindPasswordUI.resources
+E:\desktop real\4915m\program_backup_tologinSystem\program\ProcurementSystem\ProcurementSystem\bin\Debug\YummyRestaurantLimited.mdb
+E:\desktop real\4915m\program_backup_tologinSystem\program\ProcurementSystem\ProcurementSystem\bin\Debug\ProcurementSystem.exe.config
+E:\desktop real\4915m\program_backup_tologinSystem\program\ProcurementSystem\ProcurementSystem\bin\Debug\ProcurementSystem.exe
+E:\desktop real\4915m\program_backup_tologinSystem\program\ProcurementSystem\ProcurementSystem\bin\Debug\ProcurementSystem.pdb
+E:\desktop real\4915m\program_backup_tologinSystem\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.csproj.AssemblyReference.cache
+E:\desktop real\4915m\program_backup_tologinSystem\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.csproj.SuggestedBindingRedirects.cache
+E:\desktop real\4915m\program_backup_tologinSystem\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.FindPasswordUI.resources
+E:\desktop real\4915m\program_backup_tologinSystem\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.LoginUI.resources
+E:\desktop real\4915m\program_backup_tologinSystem\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.Properties.Resources.resources
+E:\desktop real\4915m\program_backup_tologinSystem\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.PurchaseManagerUI.resources
+E:\desktop real\4915m\program_backup_tologinSystem\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.RegisterUI.resources
+E:\desktop real\4915m\program_backup_tologinSystem\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.RestaurantManagerUI.resources
+E:\desktop real\4915m\program_backup_tologinSystem\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.csproj.GenerateResource.cache
+E:\desktop real\4915m\program_backup_tologinSystem\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.csproj.CoreCompileInputs.cache
+E:\desktop real\4915m\program_backup_tologinSystem\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.exe
+E:\desktop real\4915m\program_backup_tologinSystem\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.pdb
+E:\desktop real\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.CategoryManagerUI.resources
+E:\desktop real\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.MakeEditRequestUI.resources
+E:\desktop real\4915m\recovery\ProcurementSystem\ProcurementSystem\bin\Debug\YummyRestaurantLimited.mdb
+E:\desktop real\4915m\recovery\ProcurementSystem\ProcurementSystem\bin\Debug\ProcurementSystem.exe.config
+E:\desktop real\4915m\recovery\ProcurementSystem\ProcurementSystem\bin\Debug\ProcurementSystem.exe
+E:\desktop real\4915m\recovery\ProcurementSystem\ProcurementSystem\bin\Debug\ProcurementSystem.pdb
+E:\desktop real\4915m\recovery\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.csproj.AssemblyReference.cache
+E:\desktop real\4915m\recovery\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.csproj.SuggestedBindingRedirects.cache
+E:\desktop real\4915m\recovery\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.CategoryManagerUI.resources
+E:\desktop real\4915m\recovery\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.FindPasswordUI.resources
+E:\desktop real\4915m\recovery\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.LoginUI.resources
+E:\desktop real\4915m\recovery\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.MakeEditRequestUI.resources
+E:\desktop real\4915m\recovery\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.Properties.Resources.resources
+E:\desktop real\4915m\recovery\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.PurchaseManagerUI.resources
+E:\desktop real\4915m\recovery\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.RegisterUI.resources
+E:\desktop real\4915m\recovery\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.RestaurantManagerUI.resources
+E:\desktop real\4915m\recovery\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.SearchItemUI.resources
+E:\desktop real\4915m\recovery\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.csproj.GenerateResource.cache
+E:\desktop real\4915m\recovery\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.csproj.CoreCompileInputs.cache
+E:\desktop real\4915m\recovery\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.exe
+E:\desktop real\4915m\recovery\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.pdb
+E:\desktop real\4915m\recovery\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.UserControl1.resources
+E:\desktop real\4915m\program\new\ProcurementSystem\ProcurementSystem\bin\Debug\YummyRestaurantLimited.mdb
+E:\desktop real\4915m\program\new\ProcurementSystem\ProcurementSystem\bin\Debug\ProcurementSystem.exe.config
+E:\desktop real\4915m\program\new\ProcurementSystem\ProcurementSystem\bin\Debug\ProcurementSystem.exe
+E:\desktop real\4915m\program\new\ProcurementSystem\ProcurementSystem\bin\Debug\ProcurementSystem.pdb
+E:\desktop real\4915m\program\new\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.csproj.AssemblyReference.cache
+E:\desktop real\4915m\program\new\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.csproj.SuggestedBindingRedirects.cache
+E:\desktop real\4915m\program\new\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.CategoryManagerUI.resources
+E:\desktop real\4915m\program\new\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.FindPasswordUI.resources
+E:\desktop real\4915m\program\new\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.LoginUI.resources
+E:\desktop real\4915m\program\new\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.MakeEditRequestUI.resources
+E:\desktop real\4915m\program\new\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.Properties.Resources.resources
+E:\desktop real\4915m\program\new\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.PurchaseManagerUI.resources
+E:\desktop real\4915m\program\new\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.RegisterUI.resources
+E:\desktop real\4915m\program\new\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.RestaurantManagerUI.resources
+E:\desktop real\4915m\program\new\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.SearchItemUI.resources
+E:\desktop real\4915m\program\new\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.csproj.GenerateResource.cache
+E:\desktop real\4915m\program\new\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.csproj.CoreCompileInputs.cache
+E:\desktop real\4915m\program\new\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.exe
+E:\desktop real\4915m\program\new\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.pdb
+E:\desktop real\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.SearchItemUI.resources
+E:\desktop real\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.SearchRequestUI.resources
+E:\desktop real\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.SelecteItemUI.resources
+D:\4915m\backup\ProcurementSystem\ProcurementSystem\bin\Debug\YummyRestaurantLimited.mdb
+D:\4915m\backup\ProcurementSystem\ProcurementSystem\bin\Debug\ProcurementSystem.exe.config
+D:\4915m\backup\ProcurementSystem\ProcurementSystem\bin\Debug\ProcurementSystem.exe
+D:\4915m\backup\ProcurementSystem\ProcurementSystem\bin\Debug\ProcurementSystem.pdb
+D:\4915m\backup\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.csproj.AssemblyReference.cache
+D:\4915m\backup\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.csproj.SuggestedBindingRedirects.cache
+D:\4915m\backup\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.CategoryManagerUI.resources
+D:\4915m\backup\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.FindPasswordUI.resources
+D:\4915m\backup\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.LoginUI.resources
+D:\4915m\backup\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.MakeEditRequestUI.resources
+D:\4915m\backup\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.Properties.Resources.resources
+D:\4915m\backup\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.PurchaseManagerUI.resources
+D:\4915m\backup\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.RegisterUI.resources
+D:\4915m\backup\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.RestaurantManagerUI.resources
+D:\4915m\backup\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.SearchItemUI.resources
+D:\4915m\backup\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.SearchRequestUI.resources
+D:\4915m\backup\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.SelecteItemUI.resources
+D:\4915m\backup\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.csproj.GenerateResource.cache
+D:\4915m\backup\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.csproj.CoreCompileInputs.cache
+D:\4915m\backup\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.exe
+D:\4915m\backup\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.pdb
+D:\4915m\program\ProcurementSystem\ProcurementSystem\bin\Debug\YummyRestaurantLimited.mdb
+D:\4915m\program\ProcurementSystem\ProcurementSystem\bin\Debug\ProcurementSystem.exe.config
+D:\4915m\program\ProcurementSystem\ProcurementSystem\bin\Debug\ProcurementSystem.exe
+D:\4915m\program\ProcurementSystem\ProcurementSystem\bin\Debug\ProcurementSystem.pdb
+D:\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.csproj.AssemblyReference.cache
+D:\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.csproj.SuggestedBindingRedirects.cache
+D:\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.CategoryManagerUI.resources
+D:\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.FindPasswordUI.resources
+D:\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.LoginUI.resources
+D:\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.MakeEditRequestUI.resources
+D:\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.Properties.Resources.resources
+D:\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.PurchaseManagerUI.resources
+D:\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.RegisterUI.resources
+D:\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.RestaurantManagerUI.resources
+D:\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.SearchItemUI.resources
+D:\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.SearchRequestUI.resources
+D:\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.SelecteItemUI.resources
+D:\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.csproj.GenerateResource.cache
+D:\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.csproj.CoreCompileInputs.cache
+D:\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.exe
+D:\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.pdb
+D:\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.ItemManagementUI.resources
+D:\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.SearchCategoryUI.resources
+C:\Users\ipwin\OneDrive\4915m\program\ProcurementSystem\ProcurementSystem\bin\Debug\YummyRestaurantLimited.mdb
+C:\Users\ipwin\OneDrive\4915m\program\ProcurementSystem\ProcurementSystem\bin\Debug\ProcurementSystem.exe.config
+C:\Users\ipwin\OneDrive\4915m\program\ProcurementSystem\ProcurementSystem\bin\Debug\ProcurementSystem.exe
+C:\Users\ipwin\OneDrive\4915m\program\ProcurementSystem\ProcurementSystem\bin\Debug\ProcurementSystem.pdb
+C:\Users\ipwin\OneDrive\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.csproj.AssemblyReference.cache
+C:\Users\ipwin\OneDrive\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.csproj.SuggestedBindingRedirects.cache
+C:\Users\ipwin\OneDrive\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.CategoryManagerUI.resources
+C:\Users\ipwin\OneDrive\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.FindPasswordUI.resources
+C:\Users\ipwin\OneDrive\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.ItemManagementUI.resources
+C:\Users\ipwin\OneDrive\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.LoginUI.resources
+C:\Users\ipwin\OneDrive\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.Properties.Resources.resources
+C:\Users\ipwin\OneDrive\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.PurchaseManagerUI.resources
+C:\Users\ipwin\OneDrive\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.RegisterUI.resources
+C:\Users\ipwin\OneDrive\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.RestaurantManagerUI.resources
+C:\Users\ipwin\OneDrive\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.SelecteItemUI.resources
+C:\Users\ipwin\OneDrive\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.csproj.GenerateResource.cache
+C:\Users\ipwin\OneDrive\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.csproj.CoreCompileInputs.cache
+C:\Users\ipwin\OneDrive\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.exe
+C:\Users\ipwin\OneDrive\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.pdb
+C:\Users\ipwin\OneDrive\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.MapRequestUI.resources
+C:\Users\ipwin\OneDrive\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.ViewRequestItemUI.resources
+C:\Users\ipwin\OneDrive\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.ViewBPAItemsUI.resources
+C:\Users\ipwin\OneDrive\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.ViewPPOItemsUI.resources
+C:\Users\ipwin\OneDrive\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.MakeBlanketReleaseUI.resources
+C:\Users\ipwin\OneDrive\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.MakeDespatchInstructionUI.resources
+C:\Users\ipwin\OneDrive\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.SelectDepartmentAddress.resources
+C:\Users\ipwin\OneDrive\4915m\backup\ProcurementSystem\ProcurementSystem\bin\Debug\YummyRestaurantLimited.mdb
+C:\Users\ipwin\OneDrive\4915m\backup\ProcurementSystem\ProcurementSystem\bin\Debug\ProcurementSystem.exe.config
+C:\Users\ipwin\OneDrive\4915m\backup\ProcurementSystem\ProcurementSystem\bin\Debug\ProcurementSystem.exe
+C:\Users\ipwin\OneDrive\4915m\backup\ProcurementSystem\ProcurementSystem\bin\Debug\ProcurementSystem.pdb
+C:\Users\ipwin\OneDrive\4915m\backup\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.csproj.AssemblyReference.cache
+C:\Users\ipwin\OneDrive\4915m\backup\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.csproj.SuggestedBindingRedirects.cache
+C:\Users\ipwin\OneDrive\4915m\backup\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.CategoryManagerUI.resources
+C:\Users\ipwin\OneDrive\4915m\backup\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.FindPasswordUI.resources
+C:\Users\ipwin\OneDrive\4915m\backup\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.ItemManagementUI.resources
+C:\Users\ipwin\OneDrive\4915m\backup\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.LoginUI.resources
+C:\Users\ipwin\OneDrive\4915m\backup\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.MakeBlanketReleaseUI.resources
+C:\Users\ipwin\OneDrive\4915m\backup\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.MakeDespatchInstructionUI.resources
+C:\Users\ipwin\OneDrive\4915m\backup\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.MakeEditRequestUI.resources
+C:\Users\ipwin\OneDrive\4915m\backup\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.MapRequestUI.resources
+C:\Users\ipwin\OneDrive\4915m\backup\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.Properties.Resources.resources
+C:\Users\ipwin\OneDrive\4915m\backup\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.PurchaseManagerUI.resources
+C:\Users\ipwin\OneDrive\4915m\backup\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.RegisterUI.resources
+C:\Users\ipwin\OneDrive\4915m\backup\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.RestaurantManagerUI.resources
+C:\Users\ipwin\OneDrive\4915m\backup\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.SearchCategoryUI.resources
+C:\Users\ipwin\OneDrive\4915m\backup\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.SearchItemUI.resources
+C:\Users\ipwin\OneDrive\4915m\backup\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.SearchRequestUI.resources
+C:\Users\ipwin\OneDrive\4915m\backup\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.SelectDepartmentAddress.resources
+C:\Users\ipwin\OneDrive\4915m\backup\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.SelecteItemUI.resources
+C:\Users\ipwin\OneDrive\4915m\backup\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.ViewBPAItemsUI.resources
+C:\Users\ipwin\OneDrive\4915m\backup\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.ViewPPOItemsUI.resources
+C:\Users\ipwin\OneDrive\4915m\backup\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.ViewRequestItemUI.resources
+C:\Users\ipwin\OneDrive\4915m\backup\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.csproj.GenerateResource.cache
+C:\Users\ipwin\OneDrive\4915m\backup\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.csproj.CoreCompileInputs.cache
+C:\Users\ipwin\OneDrive\4915m\backup\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.exe
+C:\Users\ipwin\OneDrive\4915m\backup\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.pdb
+C:\Users\ipwin\OneDrive\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.MakeSPOsUI.resources
+C:\Users\ipwin\OneDrive\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.MakeScheduleReleaseUI.resources
+C:\Users\ipwin\OneDrive\4915m\program\ProcurementSystem\ProcurementSystem\bin\Debug\Viewability.json
+C:\Users\ipwin\OneDrive\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.WarehouseClerkUI.resources
+C:\Users\ipwin\OneDrive\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.ReceiveDespatchInstructionUI.resources
+C:\Users\ipwin\OneDrive\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.UpdateDeliveryNoteStatusUI.resources
+C:\Users\ipwin\OneDrive\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.VIewInstructionItems.resources
+C:\Users\ipwin\OneDrive\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.ViewDeliveryNoteLine.resources
+C:\Users\ipwin\OneDrive\4915m\program\ProcurementSystem\ProcurementSystem\obj\Debug\ProcurementSystem.MakeRequestUI.resources
