@@ -1,0 +1,119 @@
+nav + p{
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    margin: 1em;
+}
+
+.programBlock {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.programBlock h4 {
+    margin: 0;
+}
+
+.selector {
+    border: 1px solid #000000;
+    border-top: 0;
+    border-radius: 5px;
+    font-size: 0;
+    width: 95%;
+}
+
+
+h4, h2 {
+    margin-bottom: 1em;
+}
+
+table {
+    width: 100%;
+}
+
+th { 
+    text-align: left;
+    color: white;
+    background-color: rgb(116,176,86,255) !important; 
+
+} 
+
+tr:nth-child(even) {
+    background-color: rgb(242,242,242,255);
+}
+
+tr:hover {
+    background-color: aqua;
+}
+
+.selector h5 {
+    display: inline-block;
+    width: 33.09%;
+    text-align: center;
+    background-color: rgb(191,191,191,255);
+    font-size: medium;
+    border: 1px solid black;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.selector h5:hover {
+    background-color: white;
+}
+
+form {
+    display: inline-block;
+    width: 30%;
+    font-size: small;
+    border: 1px solid black;
+    border-radius: 5px;
+    vertical-align: top;
+}
+
+form img {
+    display: block;
+    width: 50%;
+    height: auto;
+}
+
+.engineering, .science, .Interdisciplinary {
+    width: 90%;
+    display: none;
+}
+
+.selector1:hover + .selector2 + .selector3 +.engineering {
+    display: block;
+}
+.engineering:hover {
+    display: block;
+}
+
+.selector2:hover + .selector3 + .engineering + .science {
+    display: block;
+}
+
+.science:hover {
+    display: block;
+}
+
+.selector3:hover + .engineering + .science + .Interdisciplinary {
+    display: block;
+}
+
+.Interdisciplinary:hover {
+    display: block;
+}
+
+h4 + a, h4 + a + a {
+    display: inline-block;
+    padding: 0.2em;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black !important;
+}
+
+h4+a:hover, h4+a+a:hover {
+    background-color: lightgray;
+}
+

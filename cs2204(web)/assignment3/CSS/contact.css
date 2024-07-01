@@ -1,0 +1,39 @@
+.title {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin: 1em;
+}
+
+table {
+    width: 80%;
+    margin-left: 10%;
+    border-collapse: collapse;
+}
+
+tr:first-child {
+    background-color: rgb(116,176,86,255);
+}
+
+tr:nth-child(2) {
+    background-color: white;
+}
+
+th {
+    text-align: left;
+}
+
+.background {
+    position: absolute;
+    width: 250%;
+    height: 250%;
+    background-image: url("../image/footer_logo.png");
+    background-size: 3%;
+    z-index: -1;
+    opacity: 0.15;
+    transform: rotate(30deg) translateX(-20%);
+}
+
+body {
+    overflow: hidden;
+}

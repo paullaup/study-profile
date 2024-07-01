@@ -1,0 +1,42 @@
+nav + p {
+    text-align: center;
+    font-size:xx-large;
+    font-weight: bolder;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+h4, video {
+    display: inline-block;
+    width: 40%;
+    margin-bottom: 5em;
+    vertical-align: top;
+}
+
+table, tr, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 0.5em;
+    margin-bottom: 2em;
+}
+
+th {
+    color: white;
+}
+
+tr:first-child {
+    background-color: black;
+    padding-top: 5em;
+}
+
+th:first-child {
+    width: 20%;
+}
+
+table {
+    width: 90%;
+    margin-left: 5%;
+}
+
+

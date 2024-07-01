@@ -1,0 +1,27 @@
+nav {
+    background-color: black;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+li > a {
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+}
+
+li > a:hover {
+    background-color: darkgray;
+}
+
+li > a:visited {
+    color: purple;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}

@@ -1,0 +1,3 @@
+*:not(dd) {
+    margin: 0;
+}

@@ -1,0 +1,45 @@
+header > img {
+    max-width: 100%;
+}
+
+.welcomeBlock {
+    margin-left: 10%;
+    max-width: 80%;
+    border: 1px solid black;
+    padding-top: 1em;
+}
+
+.welcomeBlock p {
+    margin-bottom: 1em;
+}
+
+table {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    border-collapse: collapse;
+}
+
+table, tr, td, th {
+    border: 1px solid black;
+}   
+
+th {
+    background-color: lightgray;
+}
+
+td {
+    text-align: center;
+    padding: 0.3em;
+}
+
+
+
+
+caption {
+    background-color: rgba(211, 211, 211, 0.778);
+    font-weight: bold;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>design</title>
+        <link rel="stylesheet" href="CSS/common.css">
+        <link rel="stylesheet" href="CSS/header.css">
+        <link rel="stylesheet" href="CSS/navigation.css">
+        <link rel="stylesheet" href="CSS/footer.css">
+        <link rel="stylesheet" href="CSS/additionalFooter.css">
+        <link rel="stylesheet" href="CSS/design.css">
+
+        <link rel="stylesheet" href="CSS/anim.css">
+    </head>
+
+    <body>
+        
+        <header>
+            <img src="image/logo.png" alt="logo" width="400" height="100" />
+            <h1>Hong Kong Industrial University</h1>
+        </header>
+
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="apply.html">Apply</a></li>
+                <li><a href="visit.html">Visit</a></li>
+                <li><a href="program.html">Program</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <h1>Deisgn Page</h1>
+
+        <div class="container1">
+            <span class="personalInformation">
+                <h4 style="margin-top: 2em;">Name:Ip wing kai</h4>
+                <h4>SID:58120400</h4>
+            </span>
+
+            <span class="hobbies">
+                <img src="image/bowling.png" alt="bowling.png">
+            </span>
+        </div>
+
+        <div class="freeDesign">
+            <div class="heading">
+                <p>Use let of const</p>
+            </div>
+            
+            <div class="content">
+                <h5>Const example</h5>
+                <p>const are used to declear the html elements variable in javascript and the map for mapping(apply.js 1-9, 31)</p>
+            </div>
+
+            <div class="content">
+                <h5>let example</h5>
+                <p>let is used in for loop for the variable (e.g. i) that used for the condition of for loop shince it will not be use outside for loop(visit.js 26)</p>
+            </div>
+        </div>
+
+        <div class="freeDesign">
+            <div class="use of map">
+                <p>Use let of const</p>
+            </div>
+            
+            <div class="content">
+                <h5>map example</h5>
+                <p>Map is used for the mapping of the short form of program name(e.g. cs for computer science)(apply.js 31)</p>
+            </div>
+
+            <div class="content">
+                <h5>set example</h5>
+                <p>Set is used to set the value in map(apply.js 32-42)</p>
+            </div>
+        </div>
+
+        <div class="freeDesign">
+            <div class="use of map">
+                <p>Use class</p>
+            </div>
+            
+            <div class="content">
+                <h5>class example</h5>
+                <p>class program is made to store the program(apply.js 11-16)</p>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="freeDesign">
+            <div class="heading">
+                <p>Use of positioning schemes</p>
+            </div>
+            
+            <div class="content">
+                <h5>Absolute positioning on contact page footer</h5>
+                <p>There are not enough content in the contact page sothat the footer is not position at the bottom of the page. Absolute positioning and location is set to make footer in the bottom of the page (contact.html line 13-19)</p>
+            </div>
+
+            <div class="content">
+                <h5>Absolute positioning on contact page background image</h5>
+                <p>An empty div is added to apply a transformable background image. Absolute positioning is set sothat it can cover the whole page and z-index can be set to make sure that content is not being covered</p>
+            </div>
+            
+            <div class="content">
+                <h5>sticky positioning on design page free design description's heading</h5>
+                <p>Heading on the left hand side had set to skicky sothat the heading can stay at the window until the div end(dedsign.css)</p>
+            </div>
+        </div>
+        
+        <div class="freeDesign">
+            <div class="heading">
+                <p>Application of CSS techniques</p>
+            </div>
+            
+            <div class="content">
+                <h5>basic CSS on background image on contact page</h5>
+                <p>The div with class background rotate 30 degree and opacity had been set to 0.3 to make the background image looks better. Moreover, width, height, translateX, overflowX had been set sothat the rotated triangle images can cover the whole page but not overflow.(contact.css line 26-39)</p>
+            </div>
+            <div class="content">
+                <h5>Animation on design page</h5>
+                <p>There is a floating animation of the bowling ball on the design page(design.css line 41-43, anim.css line 1-13)</p>
+            </div>
+        </div>
+        
+        <div class="freeDesign">
+            <div class="heading">
+                <p>Grouping of css style</p>
+            </div>
+            
+            <div class="content">
+                <h5>External style sheet 1</h5>
+                <p>There are preset margin for each html element. According to the screenshot, most the elements' preset margin(except element dd) is not required, so i create external stylesheet common.css to apply margin 0 for all of the page(common.css)</p>
+            </div>
+            <div class="content">
+                <h5>Embedded style sheet</h5>
+                <p>There are not enough content in the contact page sothat the footer is not position at the bottom of the page. Moreover, it is rarely happened so the css code Embedded in contact.html(contact.html line 13-19) </p>
+            </div>
+            <div class="content">
+                <h5>External style sheet 2</h5>
+                <p>According to my expereience in android studio, animation is always reusable, so i put the animation @keyframe in external anim.css(anim.css)</p>
+            </div>
+        </div>
+
+        
+
+        <footer>
+            <img src="image/footer_logo.png" alt="footer_logo" width="300" height="100">
+            <p>@CityU 2023 – sources of images and text from Wikipedia and Courtesy of Icon pack by Icons8 – designed by <a href="design.html">ip wing kai</a></p>
+        </footer>
+
+
+    </body>
+
+</html>
