@@ -1,0 +1,118 @@
+Please input the file pathname: 3a.txt
+
+> startNewDay 03-Jan-2024
+
+> register 001 helena
+Done.
+
+> register 002 jason
+Done.
+
+> create E1 3D_Scanner
+Done.
+
+> create E2 Smart_Glasses
+Done.
+
+> arrive E1
+Done.
+
+> arrive E1
+Done.
+
+> arrive E2
+Done.
+
+> arrive E2
+Done.
+
+> borrow 001 E1
+001 helena borrows E1_1 (3D_Scanner) for 3-Jan-2024 to 10-Jan-2024
+Done.
+
+> startNewDay 07-Jan-2024
+Done.
+
+> borrow 002 E2 10
+002 jason borrows E2_1 (Smart_Glasses) for 7-Jan-2024 to 17-Jan-2024
+Done.
+
+> listEquipment
+Code Name              #sets
+E1   3D_Scanner          2  (Borrowed set(s): E1_1(001))
+E2   Smart_Glasses       2  (Borrowed set(s): E2_1(002))
+
+> listMembers
+ID   Name      Join Date   #Borrowed   #Requested
+001  helena    3-Jan-2024      1            0
+002  jason     3-Jan-2024      1            0
+
+> listEquipmentStatus
+[E1 3D_Scanner]
+  E1_1
+    Current status: 001 helena borrows for 3-Jan-2024 to 10-Jan-2024
+  E1_2
+    Current status: Available
+
+[E2 Smart_Glasses]
+  E2_1
+    Current status: 002 jason borrows for 7-Jan-2024 to 17-Jan-2024
+  E2_2
+    Current status: Available
+
+
+> listMemberStatus
+[001 helena]
+- borrows E1_1 (3D_Scanner) for 3-Jan-2024 to 10-Jan-2024
+
+[002 jason]
+- borrows E2_1 (Smart_Glasses) for 7-Jan-2024 to 17-Jan-2024
+
+
+> request 001 E2 07-Feb-2024 5
+001 helena requests E2_1 (Smart_Glasses) for 7-Feb-2024 to 12-Feb-2024
+Done.
+
+> request 002 E1 04-Feb-2024 10
+002 jason requests E1_1 (3D_Scanner) for 4-Feb-2024 to 14-Feb-2024
+Done.
+
+> request 002 E1 15-Feb-2024 10
+002 jason requests E1_1 (3D_Scanner) for 15-Feb-2024 to 25-Feb-2024
+Done.
+
+> listEquipment
+Code Name              #sets
+E1   3D_Scanner          2  (Borrowed set(s): E1_1(001))
+E2   Smart_Glasses       2  (Borrowed set(s): E2_1(002))
+
+> listMembers
+ID   Name      Join Date   #Borrowed   #Requested
+001  helena    3-Jan-2024      1            1
+002  jason     3-Jan-2024      1            2
+
+> listEquipmentStatus
+[E1 3D_Scanner]
+  E1_1
+    Current status: 001 helena borrows for 3-Jan-2024 to 10-Jan-2024
+    Requested period(s): 4-Feb-2024 to 14-Feb-2024, 15-Feb-2024 to 25-Feb-2024
+  E1_2
+    Current status: Available
+
+[E2 Smart_Glasses]
+  E2_1
+    Current status: 002 jason borrows for 7-Jan-2024 to 17-Jan-2024
+    Requested period(s): 7-Feb-2024 to 12-Feb-2024
+  E2_2
+    Current status: Available
+
+
+> listMemberStatus
+[001 helena]
+- borrows E1_1 (3D_Scanner) for 3-Jan-2024 to 10-Jan-2024
+- requests E2_1 (Smart_Glasses) for 7-Feb-2024 to 12-Feb-2024
+
+[002 jason]
+- borrows E2_1 (Smart_Glasses) for 7-Jan-2024 to 17-Jan-2024
+- requests E1_1 (3D_Scanner) for 4-Feb-2024 to 14-Feb-2024
+- requests E1_1 (3D_Scanner) for 15-Feb-2024 to 25-Feb-2024

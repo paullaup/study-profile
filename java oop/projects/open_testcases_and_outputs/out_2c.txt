@@ -1,0 +1,175 @@
+Please input the file pathname: 2c.txt
+
+> startNewDay 03-Jan-2024
+
+> register 001 ada       
+Done.
+
+> register 002 brian     
+Done.
+
+> create E1 Smart_Glasses
+Done.
+
+> create E2 Robot_Astro
+Done.
+
+> create E3 Laser_Keyboard
+Done.
+
+> arrive E1
+Done.
+
+> arrive E1
+Done.
+
+> arrive E2
+Done.
+
+> arrive E3
+Done.
+
+> undo
+
+> undo
+
+> undo
+
+> listEquipmentStatus
+[E1 Smart_Glasses]
+  E1_1
+    Current status: Available
+
+[E2 Robot_Astro]
+  We do not have any sets for this equipment.
+
+[E3 Laser_Keyboard]
+  We do not have any sets for this equipment.
+
+
+> redo
+
+> redo
+
+> arrive E2
+Done.
+
+> redo
+Nothing to redo.
+
+> listEquipmentStatus
+[E1 Smart_Glasses]
+  E1_1
+    Current status: Available
+  E1_2
+    Current status: Available
+
+[E2 Robot_Astro]
+  E2_1
+    Current status: Available
+  E2_2
+    Current status: Available
+
+[E3 Laser_Keyboard]
+  We do not have any sets for this equipment.
+
+
+> borrow 001 E1
+001 ada borrows E1_1 (Smart_Glasses) for 3-Jan-2024 to 10-Jan-2024
+Done.
+
+> borrow 002 E2
+002 brian borrows E2_1 (Robot_Astro) for 3-Jan-2024 to 10-Jan-2024
+Done.
+
+> borrow 001 E2
+001 ada borrows E2_2 (Robot_Astro) for 3-Jan-2024 to 10-Jan-2024
+Done.
+
+> undo
+
+> undo
+
+> listEquipmentStatus
+[E1 Smart_Glasses]
+  E1_1
+    Current status: 001 ada borrows for 3-Jan-2024 to 10-Jan-2024
+  E1_2
+    Current status: Available
+
+[E2 Robot_Astro]
+  E2_1
+    Current status: Available
+  E2_2
+    Current status: Available
+
+[E3 Laser_Keyboard]
+  We do not have any sets for this equipment.
+
+
+> listMemberStatus
+[001 ada]
+- borrows E1_1 (Smart_Glasses) for 3-Jan-2024 to 10-Jan-2024
+
+[002 brian]
+No record.
+
+
+> redo
+
+> listEquipmentStatus
+[E1 Smart_Glasses]
+  E1_1
+    Current status: 001 ada borrows for 3-Jan-2024 to 10-Jan-2024
+  E1_2
+    Current status: Available
+
+[E2 Robot_Astro]
+  E2_1
+    Current status: 002 brian borrows for 3-Jan-2024 to 10-Jan-2024
+  E2_2
+    Current status: Available
+
+[E3 Laser_Keyboard]
+  We do not have any sets for this equipment.
+
+
+> listMemberStatus
+[001 ada]
+- borrows E1_1 (Smart_Glasses) for 3-Jan-2024 to 10-Jan-2024
+
+[002 brian]
+- borrows E2_1 (Robot_Astro) for 3-Jan-2024 to 10-Jan-2024
+
+
+> borrow 002 E1
+002 brian borrows E1_2 (Smart_Glasses) for 3-Jan-2024 to 10-Jan-2024
+Done.
+
+> redo
+Nothing to redo.
+
+> listEquipmentStatus
+[E1 Smart_Glasses]
+  E1_1
+    Current status: 001 ada borrows for 3-Jan-2024 to 10-Jan-2024
+  E1_2
+    Current status: 002 brian borrows for 3-Jan-2024 to 10-Jan-2024
+
+[E2 Robot_Astro]
+  E2_1
+    Current status: 002 brian borrows for 3-Jan-2024 to 10-Jan-2024
+  E2_2
+    Current status: Available
+
+[E3 Laser_Keyboard]
+  We do not have any sets for this equipment.
+
+
+> listMemberStatus
+[001 ada]
+- borrows E1_1 (Smart_Glasses) for 3-Jan-2024 to 10-Jan-2024
+
+[002 brian]
+- borrows E1_2 (Smart_Glasses) for 3-Jan-2024 to 10-Jan-2024
+- borrows E2_1 (Robot_Astro) for 3-Jan-2024 to 10-Jan-2024

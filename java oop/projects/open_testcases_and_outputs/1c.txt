@@ -1,0 +1,27 @@
+startNewDay 03-Jan-2024
+
+create E1 3D_Scanner
+create E2 Smart_Glasses
+
+listEquipment
+
+arrive E1
+arrive E1
+
+listEquipment
+
+create 
+create E2
+create E2 Robot_Astro        
+create E3 Robot_Astro        
+create E4 Laser_Keyboard
+
+listEquipment
+
+arrive E0
+arrive E1
+arrive E2
+arrive E4
+arrive E4
+
+listEquipment

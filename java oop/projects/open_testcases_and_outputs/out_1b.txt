@@ -1,0 +1,54 @@
+Please input the file pathname: 1b.txt
+
+> startNewDay 03-Jan-2024
+
+> register 001 helena
+Done.
+
+> startNewDay 06-Jan-2024
+Done.
+
+> register 002 jason
+Done.
+
+> listMembers
+ID   Name      Join Date   #Borrowed   #Requested
+001  helena    3-Jan-2024      0            0
+002  jason     6-Jan-2024      0            0
+
+> startNewDay
+Insufficient command arguments.
+
+> startNewDay 02-Jan-2024
+Invalid new day.  The new day has to be later than the current date 6-Jan-2024.
+
+> startNewDay 07-JJJ-2024
+Invalid date.
+
+> startNewDay 07-Jan
+Invalid date.
+
+> startNewDay 30-Feb-2024
+Invalid date.
+
+> startNewDay 07-Jan-yr22
+Invalid date.
+
+> startNewDay 07-Jan-2024
+Done.
+
+> startNewDay 08-Jan-2024
+Done.
+
+> register 003 kit
+Done.
+
+> register 004 karen
+Done.
+
+> listMembers
+ID   Name      Join Date   #Borrowed   #Requested
+001  helena    3-Jan-2024      0            0
+002  jason     6-Jan-2024      0            0
+003  kit       8-Jan-2024      0            0
+004  karen     8-Jan-2024      0            0

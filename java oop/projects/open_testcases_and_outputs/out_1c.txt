@@ -1,0 +1,69 @@
+Please input the file pathname: 1c.txt
+
+> startNewDay 03-Jan-2024
+
+> create E1 3D_Scanner
+Done.
+
+> create E2 Smart_Glasses
+Done.
+
+> listEquipment
+Code Name              #sets
+E1   3D_Scanner          0  
+E2   Smart_Glasses       0
+
+> arrive E1
+Done.
+
+> arrive E1
+Done.
+
+> listEquipment
+Code Name              #sets
+E1   3D_Scanner          2
+E2   Smart_Glasses       0
+
+> create
+Insufficient command arguments.
+
+> create E2
+Insufficient command arguments.
+
+> create E2 Robot_Astro
+Equipment code already in use: E2 Smart_Glasses
+
+> create E3 Robot_Astro
+Done.
+
+> create E4 Laser_Keyboard
+Done.
+
+> listEquipment
+Code Name              #sets
+E1   3D_Scanner          2
+E2   Smart_Glasses       0
+E3   Robot_Astro         0
+E4   Laser_Keyboard      0
+
+> arrive E0
+Missing record for Equipment E0.  Cannot mark this item arrival.
+
+> arrive E1
+Done.
+
+> arrive E2
+Done.
+
+> arrive E4
+Done.
+
+> arrive E4
+Done.
+
+> listEquipment
+Code Name              #sets
+E1   3D_Scanner          3
+E2   Smart_Glasses       1
+E3   Robot_Astro         0  
+E4   Laser_Keyboard      2

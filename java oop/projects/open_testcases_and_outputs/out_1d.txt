@@ -1,0 +1,94 @@
+Please input the file pathname: 1d.txt
+
+> startNewDay 03-Jan-2024
+
+> register 001 helena
+Done.
+
+> register 002 jason
+Done.
+
+> create E1 3D_Scanner
+Done.
+
+> create E2 Smart_Glasses
+Done.
+
+> create E3 Robot_Astro
+Done.
+
+> create E4 Laser_Keyboard
+Done.
+
+> arrive E1
+Done.
+
+> arrive E1
+Done.
+
+> arrive E2
+Done.
+
+> arrive E4
+Done.
+
+> listMembers
+ID   Name      Join Date   #Borrowed   #Requested
+001  helena    3-Jan-2024      0            0
+002  jason     3-Jan-2024      0            0
+
+> listEquipment
+Code Name              #sets
+E1   3D_Scanner          2
+E2   Smart_Glasses       1
+E3   Robot_Astro         0
+E4   Laser_Keyboard      1
+
+> borrow 001 E1
+001 helena borrows E1_1 (3D_Scanner) for 3-Jan-2024 to 10-Jan-2024
+Done.
+
+> borrow 002 E2
+002 jason borrows E2_1 (Smart_Glasses) for 3-Jan-2024 to 10-Jan-2024
+Done.
+
+> borrow 002 E1
+002 jason borrows E1_2 (3D_Scanner) for 3-Jan-2024 to 10-Jan-2024
+Done.
+
+> listMembers
+ID   Name      Join Date   #Borrowed   #Requested
+001  helena    3-Jan-2024      1            0
+002  jason     3-Jan-2024      2            0
+
+> listEquipment
+Code Name              #sets
+E1   3D_Scanner          2  (Borrowed set(s): E1_1(001), E1_2(002))
+E2   Smart_Glasses       1  (Borrowed set(s): E2_1(002))
+E3   Robot_Astro         0
+E4   Laser_Keyboard      1
+
+> borrow
+Insufficient command arguments.
+
+> borrow 009 E1
+Member not found.
+
+> borrow 001 E9
+Equipment record not found.
+
+> borrow 001 E4
+001 helena borrows E4_1 (Laser_Keyboard) for 3-Jan-2024 to 10-Jan-2024
+Done.
+
+> listMembers
+ID   Name      Join Date   #Borrowed   #Requested
+001  helena    3-Jan-2024      2            0
+002  jason     3-Jan-2024      2            0
+
+> listEquipment
+Code Name              #sets
+E1   3D_Scanner          2  (Borrowed set(s): E1_1(001), E1_2(002))
+E2   Smart_Glasses       1  (Borrowed set(s): E2_1(002))
+E3   Robot_Astro         0  
+E4   Laser_Keyboard      1  (Borrowed set(s): E4_1(001))

@@ -1,0 +1,93 @@
+Please input the file pathname: 2b.txt
+
+> startNewDay 03-Jan-2024
+
+> register 001 helena
+Done.
+
+> register 002 jason
+Done.
+
+> register 003 paul
+Done.
+
+> create E1 3D_Scanner
+Done.
+
+> create E2 Smart_Glasses
+Done.
+
+> listEquipment
+Code Name              #sets
+E1   3D_Scanner          0
+E2   Smart_Glasses       0
+
+> startNewDay 07-Jan-2024
+Done.
+
+> create E3 Robot_Astro
+Done.
+
+> create E4 Laser_Keyboard
+Done.
+
+> arrive E1
+Done.
+
+> arrive E1
+Done.
+
+> arrive E2
+Done.
+
+> arrive E4
+Done.
+
+> listEquipment
+Code Name              #sets
+E1   3D_Scanner          2
+E2   Smart_Glasses       1
+E3   Robot_Astro         0
+E4   Laser_Keyboard      1
+
+> borrow 001 E1
+001 helena borrows E1_1 (3D_Scanner) for 7-Jan-2024 to 14-Jan-2024
+Done.
+
+> borrow 002 E2
+002 jason borrows E2_1 (Smart_Glasses) for 7-Jan-2024 to 14-Jan-2024
+Done.
+
+> borrow 002 E1
+002 jason borrows E1_2 (3D_Scanner) for 7-Jan-2024 to 14-Jan-2024
+Done.
+
+> listMemberStatus
+[001 helena]
+- borrows E1_1 (3D_Scanner) for 7-Jan-2024 to 14-Jan-2024
+
+[002 jason]
+- borrows E1_2 (3D_Scanner) for 7-Jan-2024 to 14-Jan-2024
+- borrows E2_1 (Smart_Glasses) for 7-Jan-2024 to 14-Jan-2024
+
+[003 paul]
+No record.
+
+
+> listEquipmentStatus
+[E1 3D_Scanner]
+  E1_1
+    Current status: 001 helena borrows for 7-Jan-2024 to 14-Jan-2024
+  E1_2
+    Current status: 002 jason borrows for 7-Jan-2024 to 14-Jan-2024
+
+[E2 Smart_Glasses]
+  E2_1
+    Current status: 002 jason borrows for 7-Jan-2024 to 14-Jan-2024
+
+[E3 Robot_Astro]
+  We do not have any sets for this equipment.
+
+[E4 Laser_Keyboard]
+  E4_1
+    Current status: Available

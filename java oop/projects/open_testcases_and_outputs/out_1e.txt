@@ -1,0 +1,242 @@
+Please input the file pathname: 1e.txt
+
+> startNewDay 03-Jan-2024
+
+> register 001 helena
+Done.
+
+> register 002 jason
+Done.
+
+> register 001 peter
+Member ID already in use: 001 helena
+
+> undo
+
+> undo
+
+> undo
+Nothing to undo.
+
+> redo
+
+> redo
+
+> redo
+Nothing to redo.
+
+> listMembers
+ID   Name      Join Date   #Borrowed   #Requested
+001  helena    3-Jan-2024      0            0    
+002  jason     3-Jan-2024      0            0    
+
+> undo
+
+> undo
+
+> register 001 ada
+Done.
+
+> redo
+Nothing to redo.
+
+> listMembers
+ID   Name      Join Date   #Borrowed   #Requested
+001  ada       3-Jan-2024      0            0    
+
+> startNewDay 06-Jan-2024
+Done.
+
+> startNewDay 32-Jan-2024
+Invalid date.
+
+> undo
+
+> register 003 brian
+Done.
+
+> listMembers
+ID   Name      Join Date   #Borrowed   #Requested
+001  ada       3-Jan-2024      0            0    
+003  brian     3-Jan-2024      0            0    
+
+> undo
+
+> register 002 brian
+Done.
+
+> listMembers
+ID   Name      Join Date   #Borrowed   #Requested
+001  ada       3-Jan-2024      0            0    
+002  brian     3-Jan-2024      0            0    
+
+> undo
+
+> undo
+
+> register 002 brian
+Done.
+
+> listMembers
+ID   Name      Join Date   #Borrowed   #Requested
+002  brian     3-Jan-2024      0            0    
+
+> undo
+
+> startNewDay 07-Jan-2024
+Done.
+
+> redo
+Nothing to redo.
+
+> undo
+
+> redo
+
+> register 001 helena
+Done.
+
+> register 002 brian
+Done.
+
+> listMembers
+ID   Name      Join Date   #Borrowed   #Requested
+001  helena    7-Jan-2024      0            0
+002  brian     7-Jan-2024      0            0
+
+> create E1 3D_Scanner
+Done.
+
+> create E2 Smart_Glasses
+Done.
+
+> create E2 3D_Printer
+Equipment code already in use: E2 Smart_Glasses
+
+> undo
+
+> undo
+
+> listEquipment
+Code Name              #sets
+
+> redo
+
+> redo
+
+> listEquipment
+Code Name              #sets
+E1   3D_Scanner          0  
+E2   Smart_Glasses       0
+
+> undo
+
+> undo
+
+> create E1 Smart_Glasses
+Done.
+
+> redo
+Nothing to redo.
+
+> listEquipment
+Code Name              #sets
+E1   Smart_Glasses       0
+
+> create E2 Robot_Astro
+Done.
+
+> create E3 Laser_Keyboard
+Done.
+
+> arrive E1
+Done.
+
+> arrive E1
+Done.
+
+> arrive E2
+Done.
+
+> arrive E3
+Done.
+
+> arrive E9
+Missing record for Equipment E9.  Cannot mark this item arrival.
+
+> undo
+
+> undo
+
+> undo
+
+> listEquipment
+Code Name              #sets
+E1   Smart_Glasses       1
+E2   Robot_Astro         0
+E3   Laser_Keyboard      0
+
+> redo
+
+> redo
+
+> arrive E2
+Done.
+
+> redo
+Nothing to redo.
+
+> listEquipment
+Code Name              #sets
+E1   Smart_Glasses       2
+E2   Robot_Astro         2
+E3   Laser_Keyboard      0
+
+> borrow 001 E1
+001 helena borrows E1_1 (Smart_Glasses) for 7-Jan-2024 to 14-Jan-2024
+Done.
+
+> borrow 002 E2
+002 brian borrows E2_1 (Robot_Astro) for 7-Jan-2024 to 14-Jan-2024
+Done.
+
+> borrow 001 E2
+001 helena borrows E2_2 (Robot_Astro) for 7-Jan-2024 to 14-Jan-2024
+Done.
+
+> borrow 009 E2
+Member not found.
+
+> borrow 001 E9
+Equipment record not found.
+
+> undo
+
+> undo
+
+> listEquipment
+Code Name              #sets
+E1   Smart_Glasses       2  (Borrowed set(s): E1_1(001))
+E2   Robot_Astro         2
+E3   Laser_Keyboard      0
+
+> redo
+
+> listEquipment
+Code Name              #sets
+E1   Smart_Glasses       2  (Borrowed set(s): E1_1(001))
+E2   Robot_Astro         2  (Borrowed set(s): E2_1(002))
+E3   Laser_Keyboard      0
+
+> borrow 002 E1
+002 brian borrows E1_2 (Smart_Glasses) for 7-Jan-2024 to 14-Jan-2024
+Done.
+
+> redo
+Nothing to redo.
+
+> listEquipment
+Code Name              #sets
+E1   Smart_Glasses       2  (Borrowed set(s): E1_1(001), E1_2(002))
+E2   Robot_Astro         2  (Borrowed set(s): E2_1(002))
+E3   Laser_Keyboard      0

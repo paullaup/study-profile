@@ -1,0 +1,162 @@
+Please input the file pathname: 2a.txt
+
+> startNewDay 03-Jan-2024
+
+> register 001 helena
+Done.
+
+> register 002 jason
+Done.
+
+> create E1 3D_Scanner
+Done.
+
+> create E2 Smart_Glasses
+Done.
+
+> create E3 Robot_Astro
+Done.
+
+> create E4 Laser_Keyboard
+Done.
+
+> arrive E1
+Done.
+
+> arrive E2
+Done.
+
+> arrive E2
+Done.
+
+> arrive E3
+Done.
+
+> listEquipment
+Code Name              #sets
+E1   3D_Scanner          1
+E2   Smart_Glasses       2
+E3   Robot_Astro         1
+E4   Laser_Keyboard      0
+
+> startNewDay 07-Jan-2024
+Done.
+
+> borrow 001 E1
+001 helena borrows E1_1 (3D_Scanner) for 7-Jan-2024 to 14-Jan-2024
+Done.
+
+> listEquipment
+Code Name              #sets
+E1   3D_Scanner          1  (Borrowed set(s): E1_1(001))
+E2   Smart_Glasses       2
+E3   Robot_Astro         1
+E4   Laser_Keyboard      0
+
+> listMembers
+ID   Name      Join Date   #Borrowed   #Requested
+001  helena    3-Jan-2024      1            0
+002  jason     3-Jan-2024      0            0
+
+> borrow 001 E2
+001 helena borrows E2_1 (Smart_Glasses) for 7-Jan-2024 to 14-Jan-2024
+Done.
+
+> borrow 001 E3
+001 helena borrows E3_1 (Robot_Astro) for 7-Jan-2024 to 14-Jan-2024
+Done.
+
+> borrow 001 E4
+There is no available set of this equipment for the command.
+
+> borrow 001 E2
+The member is currently borrowing a set of this equipment. He/she cannot borrow one more at the same time.
+
+> listEquipment
+Code Name              #sets
+E1   3D_Scanner          1  (Borrowed set(s): E1_1(001))
+E2   Smart_Glasses       2  (Borrowed set(s): E2_1(001))
+E3   Robot_Astro         1  (Borrowed set(s): E3_1(001))
+E4   Laser_Keyboard      0
+
+> listMembers
+ID   Name      Join Date   #Borrowed   #Requested
+001  helena    3-Jan-2024      3            0
+002  jason     3-Jan-2024      0            0
+
+> borrow 002 E1
+There is no available set of this equipment for the command.
+
+> borrow 002 E2
+002 jason borrows E2_2 (Smart_Glasses) for 7-Jan-2024 to 14-Jan-2024
+Done.
+
+> borrow 002 E3
+There is no available set of this equipment for the command.
+
+> borrow 002 E4
+There is no available set of this equipment for the command.
+
+> listEquipment
+Code Name              #sets
+E1   3D_Scanner          1  (Borrowed set(s): E1_1(001))
+E2   Smart_Glasses       2  (Borrowed set(s): E2_1(001), E2_2(002))
+E3   Robot_Astro         1  (Borrowed set(s): E3_1(001))
+E4   Laser_Keyboard      0
+
+> listMembers
+ID   Name      Join Date   #Borrowed   #Requested
+001  helena    3-Jan-2024      3            0
+002  jason     3-Jan-2024      1            0
+
+> arrive E2
+Done.
+
+> arrive E3
+Done.
+
+> arrive E4
+Done.
+
+> borrow 002 E2
+The member is currently borrowing a set of this equipment. He/she cannot borrow one more at the same time.
+
+> borrow 002 E3
+002 jason borrows E3_2 (Robot_Astro) for 7-Jan-2024 to 14-Jan-2024
+Done.
+
+> borrow 002 E4
+002 jason borrows E4_1 (Laser_Keyboard) for 7-Jan-2024 to 14-Jan-2024
+Done.
+
+> listEquipment
+Code Name              #sets
+E1   3D_Scanner          1  (Borrowed set(s): E1_1(001))
+E2   Smart_Glasses       3  (Borrowed set(s): E2_1(001), E2_2(002))
+E3   Robot_Astro         2  (Borrowed set(s): E3_1(001), E3_2(002))
+E4   Laser_Keyboard      1  (Borrowed set(s): E4_1(002))
+
+> listMembers
+ID   Name      Join Date   #Borrowed   #Requested
+001  helena    3-Jan-2024      3            0
+002  jason     3-Jan-2024      3            0
+
+> register 003 ivan
+Done.
+
+> borrow 003 E2
+003 ivan borrows E2_3 (Smart_Glasses) for 7-Jan-2024 to 14-Jan-2024
+Done.
+
+> listEquipment
+Code Name              #sets
+E1   3D_Scanner          1  (Borrowed set(s): E1_1(001))
+E2   Smart_Glasses       3  (Borrowed set(s): E2_1(001), E2_2(002), E2_3(003))
+E3   Robot_Astro         2  (Borrowed set(s): E3_1(001), E3_2(002))
+E4   Laser_Keyboard      1  (Borrowed set(s): E4_1(002))
+
+> listMembers
+ID   Name      Join Date   #Borrowed   #Requested
+001  helena    3-Jan-2024      3            0
+002  jason     3-Jan-2024      3            0
+003  ivan      7-Jan-2024      1            0

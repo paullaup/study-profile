@@ -1,0 +1,59 @@
+startNewDay 03-Jan-2024
+
+register 001 helena 
+register 002 jason
+register 003 tommy
+
+create E1 3D_Scanner
+create E2 Smart_Glasses
+
+arrive E1
+arrive E1
+arrive E2
+arrive E2
+
+request 001 E1 17-Jan-2024 
+request 001 E1 17-Jan-2024 five
+request 001 E1 17-Jan-2024 -5
+request 001 E1 17-Jan 10
+request 001 E1 17-Jan-yr22 10
+request 001 E1 19-FFF-2024 10
+request 001 E1 30-Feb-2024 10
+request 001 E1 one-Feb-2024 10
+request 001 E9 17-Jan-2024 10
+request 009 E1 17-Jan-2024 10
+request 001 E1 7-Jan-2024 10
+borrow 001 E1
+borrow 001 E1 -5
+borrow 001 E1 4
+borrow 001 E1 3
+
+borrow 001 E2
+request 001 E2 10-Jan-2024 5
+request 001 E2 11-Jan-2024 5
+request 001 E2 15-Jan-2024 5
+request 001 E2 17-Jan-2024 5
+
+listEquipment
+listMembers
+listEquipmentStatus
+listMemberStatus
+
+request 002 E2 18-Jan-2024 5
+request 003 E2 19-Jan-2024 8
+request 003 E2 23-Jan-2024 8
+request 003 E2 24-Jan-2024 8
+
+listEquipment
+listMembers
+listEquipmentStatus
+listMemberStatus
+
+request 002 E1 7-Jan-2024 3
+listEquipmentStatus
+startNewDay 05-Jan-2024
+borrow 003 E1
+borrow 003 E1 2
+borrow 003 E1 1
+listEquipmentStatus
+

@@ -1,0 +1,24 @@
+startNewDay 03-Jan-2024
+
+register 001 helena 
+
+startNewDay 06-Jan-2024
+register 002 jason
+
+listMembers
+
+startNewDay
+startNewDay 02-Jan-2024
+startNewDay 07-JJJ-2024
+startNewDay 07-Jan
+startNewDay 30-Feb-2024
+startNewDay 07-Jan-yr22
+startNewDay 07-Jan-2024
+startNewDay 08-Jan-2024
+
+register 003 kit
+register 004 karen
+
+listMembers
+
+

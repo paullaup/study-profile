@@ -1,0 +1,32 @@
+Please input the file pathname: 1a.txt
+
+> startNewDay 03-Jan-2024
+
+> register 001 helena
+Done.
+
+> register 002 jason
+Done.
+
+> listMembers
+ID   Name      Join Date   #Borrowed   #Requested
+001  helena    3-Jan-2024      0            0
+002  jason     3-Jan-2024      0            0
+
+> register
+Insufficient command arguments.
+
+> register 002
+Insufficient command arguments.
+
+> register 002 kit
+Member ID already in use: 002 jason
+
+> register 003 kit
+Done.
+
+> register 004 karen
+Done.
+
+> list_abc_wrong_command
+Unknown command - ignored.
