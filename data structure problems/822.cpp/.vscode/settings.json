@@ -1,0 +1,25 @@
+{
+    "files.associations": {
+        "cmath": "cpp",
+        "vector": "cpp",
+        "unordered_map": "cpp",
+        "iterator": "cpp",
+        "xhash": "cpp",
+        "xmemory": "cpp",
+        "xutility": "cpp",
+        "queue": "cpp",
+        "stack": "cpp",
+        "iostream": "cpp",
+        "utility": "cpp",
+        "format": "cpp",
+        "istream": "cpp",
+        "memory": "cpp",
+        "type_traits": "cpp",
+        "xlocmes": "cpp",
+        "xlocmon": "cpp",
+        "xlocnum": "cpp",
+        "xloctime": "cpp",
+        "tuple": "cpp",
+        "iosfwd": "cpp"
+    }
+}
