@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(30, 30, 30);
+    color: white;
+    font-family: sans-serif;
+}
+
+.flexRow {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 20px;
+}
+
+.flexCol {
+    display: flex;
+    flex-direction: column;
+    flex-wrap:nowrap;
+}
+
+table{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    border-collapse: collapse;
+}
+
+th ,td{
+    width: 700px;
+}
+
+tr{
+    border-bottom: 1px solid lightgray;
+}
+
+
+tr:hover {
+    background-color: gray;
+}

@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(30, 30, 30);
+    color: white;
+    font-family: sans-serif;
+}
+
+.flexRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.flexCol {
+    display: flex;
+    flex-direction: column;
+}
+
+.textbox{
+    background-color: gray;
+    color: white;
+    border-radius: 10px;
+}

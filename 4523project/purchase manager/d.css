@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(30, 30, 30);
+    color: white;
+    font-family: sans-serif;
+}
+
+table{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    border-collapse: collapse;
+}
+
+th ,td{
+    width: 130px;
+}
+
+tr{
+    border-bottom: 1px solid lightgray;
+}
+
+
+.selected{
+    background-color: rgba(0, 0, 255, 0.527) !important;
+}
+
+tr:hover {
+    background-color: gray;
+}
+
+.flexRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.flexCol {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.textbox{
+    background-color: gray;
+    color: white;
+    border-radius: 10px;
+}
+
+.name {
+    position: absolute;
+    top: 0;
+    right: 50%;
+    margin: 10px;
+}
+
+.innerFlex {
+    flex-direction: column;
+    margin: auto;
+}
+
+.textboxDisplay {
+    border-style: ridge;
+    background-color: rgba(169, 169, 169, 0.151);
+    color: white;
+    margin-top: 25px;
+    width: 150%;
+}
+
+
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
